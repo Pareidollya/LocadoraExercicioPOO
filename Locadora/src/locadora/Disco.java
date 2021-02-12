@@ -45,8 +45,12 @@ public class Disco extends item{
  
     @Override
     public void ListaInformações(){
-        System.out.println(this.getTitulo() + this.getArtista() + this.getAno() + 
-                this.getQntFaixas() + this.getMidia() + this.getComentario());
+        System.out.println("Titulo: "+this.getTitulo());
+        System.out.println("Ano de Lançamento: "+this.getAno());
+        System.out.println("Comentátio: "+this.getComentario());
+        System.out.println("Artista: "+this.getArtista());
+        System.out.println("Quantidade de Faixas: "+this.getQntFaixas());
+        System.out.println("Midia: "+this.getMidia());
         
     }
  

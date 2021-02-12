@@ -28,14 +28,18 @@ public class Locadora {
    }
    public void ListarDiscos(){
        for(int i = 0; i < Discos.length;i++){
-           System.out.println("Informações do disco " + i);
+           System.out.println("Informações do disco " + i+1);
+           System.out.println("-----------------------------------------");
            Discos[i].ListaInformações();
+           System.out.println("-----------------------------------------\n");
        }
    }
    public void ListarFilmes(){
        for(int i = 0; i < Filmes.length;i++){
-           System.out.println("Informações do filme " + i);
+           System.out.println("Informações do filme " + i+1);
+           System.out.println("-----------------------------------------");
            Filmes[i].ListaInformações();
+           System.out.println("-----------------------------------------\n");
         }
    }
 }

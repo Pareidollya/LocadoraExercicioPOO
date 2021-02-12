@@ -43,8 +43,12 @@ public class Filme extends item{
 
     @Override
     public void ListaInformações(){
-        System.out.println(this.getTitulo() + this.getGenero() + this.getAno() + 
-                this.getDiretor() + this.getDuração() + this.getComentario());
+        System.out.println("Titulo: "+this.getTitulo());
+        System.out.println("Ano de Lançamento: "+this.getAno());
+        System.out.println("Comentátio: "+this.getComentario());
+        System.out.println("Diretor: "+this.getDiretor());
+        System.out.println("Duração: "+this.getDuração());
+        System.out.println("Gênero: "+this.getGenero());
     
 }
 }
